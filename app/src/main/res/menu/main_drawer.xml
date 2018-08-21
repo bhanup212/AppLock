@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/locked_apps_menu"
+            android:title="@string/locked_apps"/>
+
+        <item android:id="@+id/_menu"
+            android:title="@string/locked_apps"/>
+
+        <item android:id="@+id/change_lock_menu"
+            android:title="@string/change_lock"/>
+
+        <item android:id="@+id/settings_menu"
+            android:title="@string/settings"/>
+
+
+        <item android:id="@+id/rewards_menu"
+            android:title="@string/rewards"/>
+
+        <item android:id="@+id/about_menu"
+            android:title="@string/about"/>
+
+    </group>
+</menu>
